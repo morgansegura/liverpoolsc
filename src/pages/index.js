@@ -1,28 +1,28 @@
-import React, { Component } from "react";
-import { graphql } from "gatsby";
-import Layout from "../components/Layout";
-import SplashPageTemplate from "../templates/splash-page";
-import HomePageTemplate from "../templates/home-page";
+import React, { Component } from 'react'
+import { graphql } from 'gatsby'
+import Layout from '../components/Layout'
+import SplashPageTemplate from '../templates/splash-page'
+import HomePageTemplate from '../templates/home-page'
 
 // import SEO from '../components/seo'
-import { overlayClose, smoothScroll } from "../helpers/helpers";
+import { overlayClose, smoothScroll } from '../helpers/helpers'
 
 export default class IndexPage extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       showSplashPage: false,
-      bodyClassList: " is--mobile-nav mobile-nav--is-closed"
-    };
+      bodyClassList: ' is--mobile-nav mobile-nav--is-closed',
+    }
   }
   componentDidMount() {
     // Implement smmoth scrooling
-    smoothScroll();
+    smoothScroll()
     // function to close overlay on container click or esc key
-    overlayClose(document.querySelector(".overlay"));
+    overlayClose(document.querySelector('.overlay'))
     // add classes to the body tag
-    const body = document.getElementsByTagName("body")[0];
-    body.className += this.state.bodyClassList;
+    const body = document.getElementsByTagName('body')[0]
+    body.className += this.state.bodyClassList
   }
   componentWillUnmount() {}
 
@@ -37,7 +37,7 @@ export default class IndexPage extends Component {
           </Layout>
         )}
       </React.Fragment>
-    );
+    )
   }
 }
 
@@ -62,4 +62,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`
