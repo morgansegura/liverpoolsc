@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f1dc51a217fcb79385de1b32fe585156",
-        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -2497,16 +2488,14 @@
         "instagramID": "liverpoolsc",
         "googleAnalyticsId": "UA-131102503-1"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-21T21:58:38.821Z",
+      "buildTime": "2019-03-21T22:19:22.377Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "a97031d1fb67414fdd792463db4d32fb",
+        "contentDigest": "a678cbff57424c2c7aa9c3226aaf16af",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2516,7 +2505,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "625ecb4d74e4cfbfa938d25ad3741b87",
+        "contentDigest": "e7d40f95526442aba3fa79e938b632a0",
         "type": "Directory",
         "description": "Directory \"src/assets/images\"",
         "owner": "gatsby-source-filesystem"
@@ -2528,7 +2517,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2019-03-21T21:06:08.725Z",
-      "accessTime": "2019-03-21T21:58:46.749Z",
+      "accessTime": "2019-03-21T22:19:25.455Z",
       "changeTime": "2019-03-21T21:06:08.725Z",
       "birthTime": "2019-02-12T17:38:46.079Z",
       "root": "/",
@@ -2546,11 +2535,11 @@
       "blksize": 4096,
       "ino": 18357107,
       "blocks": 0,
-      "atimeMs": 1553205526749.1077,
+      "atimeMs": 1553206765454.994,
       "mtimeMs": 1553202368724.7837,
       "ctimeMs": 1553202368724.7837,
       "birthtimeMs": 1549993126078.714,
-      "atime": "2019-03-21T21:58:46.749Z",
+      "atime": "2019-03-21T22:19:25.455Z",
       "mtime": "2019-03-21T21:06:08.725Z",
       "ctime": "2019-03-21T21:06:08.725Z",
       "birthtime": "2019-02-12T17:38:46.079Z"
@@ -2662,7 +2651,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "68b17fff6cf844f74a5c2e4227bed454",
+        "contentDigest": "d469572fee9dda8102d4019129ed76e0",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -2674,7 +2663,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-02-25T22:47:04.150Z",
-      "accessTime": "2019-03-21T21:58:46.763Z",
+      "accessTime": "2019-03-21T22:19:25.465Z",
       "changeTime": "2019-03-21T18:59:36.465Z",
       "birthTime": "2019-02-12T17:38:46.080Z",
       "root": "/",
@@ -2692,11 +2681,11 @@
       "blksize": 4096,
       "ino": 18357147,
       "blocks": 0,
-      "atimeMs": 1553205526763.2778,
+      "atimeMs": 1553206765465.4087,
       "mtimeMs": 1551134824149.9421,
       "ctimeMs": 1553194776465.3503,
       "birthtimeMs": 1549993126080.2664,
-      "atime": "2019-03-21T21:58:46.763Z",
+      "atime": "2019-03-21T22:19:25.465Z",
       "mtime": "2019-02-25T22:47:04.150Z",
       "ctime": "2019-03-21T18:59:36.465Z",
       "birthtime": "2019-02-12T17:38:46.080Z"
@@ -3066,6 +3055,26 @@
       },
       "dataString": "{\"title\":[{\"type\":\"heading1\",\"text\":\"Our Mission\",\"spans\":[]}],\"content\":[{\"type\":\"heading2\",\"text\":\"Our Mission\",\"spans\":[]},{\"type\":\"paragraph\",\"text\":\"Liverpool Soccer Club exists to provide the most dynamic and comprehensive program for youth soccer athletes in Southern California. We are a non-profit organization (tax ID #501(c3)#26-3805263). We have designed a program to energize today’s youth soccer player. Our mission is to allow proper development in youth soccer athletes to their fullest desire, nurture a love of the game, and ultimately cultivate well-rounded young people within a competitive club environment.\",\"spans\":[]},{\"type\":\"paragraph\",\"text\":\"The Liverpool approach is long-term development. It takes 10-12 years to truly develop a soccer player. We have a goal of how we want individuals and teams to each year with the goal being reached that by the time they are U16-U18/19 it is implemented fluently.\",\"spans\":[]},{\"type\":\"paragraph\",\"text\":\"Each of our age groups and coaches build upon each other from week to week and year to year. We call this our “Pathway to Excellence “ that each coach adheres to in order to develop players to be the best they can be.\",\"spans\":[]},{\"type\":\"image\",\"url\":\"https://liverpoolsc.cdn.prismic.io/liverpoolsc/990ba8cdf4f511ad30c868a0cdadd7699afe84ea_the-pathway-of-excellence.jpg\",\"alt\":null,\"copyright\":null,\"dimensions\":{\"width\":591,\"height\":385}},{\"type\":\"heading2\",\"text\":\"PATHWAY OF EXCELLENCE\",\"spans\":[]},{\"type\":\"paragraph\",\"text\":\"Our philosophy and method of coaching is based on a player-centered model of interaction and learning. We have studied the most effective coaching methods in Brazil, Holland, and Spain who arguably are the top three countries that consistently develop the top players in the world. We have come to discover that in these countries there are some consistent methods and strategies that underpin their effectiveness. We have adapted those methods based on the culture in which we live.\",\"spans\":[]},{\"type\":\"heading2\",\"text\":\"LIVERPOOL’S CORE VALUES\",\"spans\":[]},{\"type\":\"paragraph\",\"text\":\"We have established 8 core values that are fundamental to creating the type of person that we believe will succeed on and off the field.\",\"spans\":[]},{\"type\":\"list-item\",\"text\":\"Humility\",\"spans\":[]},{\"type\":\"list-item\",\"text\":\"Positive Competitiveness\",\"spans\":[]},{\"type\":\"list-item\",\"text\":\"Respect\",\"spans\":[]},{\"type\":\"list-item\",\"text\":\"Hard Work\",\"spans\":[]},{\"type\":\"list-item\",\"text\":\"Dedication\",\"spans\":[]},{\"type\":\"list-item\",\"text\":\"Fair Play\",\"spans\":[]},{\"type\":\"list-item\",\"text\":\"No Compromise\",\"spans\":[]},{\"type\":\"list-item\",\"text\":\"Responsibility\",\"spans\":[]},{\"type\":\"paragraph\",\"text\":\"Our coaching staff will work hard to teach each player these core values throughout each member’s time with the club.\",\"spans\":[]},{\"type\":\"paragraph\",\"text\":\"\",\"spans\":[]}],\"body\":[{\"slice_type\":\"content_block\",\"slice_label\":null,\"items\":[{\"content_block\":[{\"type\":\"paragraph\",\"text\":\"\",\"spans\":[]}]}],\"primary\":{}}]}"
     },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "jsonName": "offline-plugin-app-shell-fallback-a30",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "pluginCreatorId": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "componentPath": "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "aeaab21cacbe040643857571b370bd32",
+        "description": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /our-mission": {
       "jsonName": "our-mission-8d7",
       "internalComponentName": "ComponentOurMission",
@@ -3159,10 +3168,10 @@
         "/",
         "sq--src-components-footer-js",
         "sq--src-components-header-js",
-        "sq--src-components-hero-js",
-        "sq--src-components-menus-menu-header-js",
         "sq--src-components-layout-js",
-        "sq--src-components-seo-js"
+        "sq--src-components-menus-menu-header-js",
+        "sq--src-components-seo-js",
+        "sq--src-components-hero-js"
       ],
       "Prismic__Homepage__XJP2hxIAAE9M5QuP": [
         "/"
@@ -3173,6 +3182,7 @@
     },
     "connections": {
       "PrismicPage": [
+        null,
         null
       ]
     }
@@ -3188,16 +3198,13 @@
     "our-mission-8d7": "886/path---our-mission-8-d-7-bab-rMhEjPx3d0qyPhKsu5Sgu90wQI",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/src/templates/page.js": {
       "query": "query PageBySlug(\n  $uid: String!\n) {\n  prismicPage(uid: {eq: $uid}) {\n    uid\n    data {\n      title {\n        text\n      }\n      content {\n        html\n      }\n    }\n  }\n}\n",
       "componentPath": "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/src/templates/page.js"
-    },
-    "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/.cache/dev-404-page.js"
     },
     "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/src/pages/404.js": {
       "query": "",
@@ -3206,6 +3213,10 @@
     "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/src/pages/index.js": {
       "query": "query IndexQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n  prismicHomepage {\n    slugs\n    uid\n    id\n    data {\n      title {\n        text\n      }\n      content {\n        html\n      }\n    }\n  }\n}\n",
       "componentPath": "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/src/pages/index.js"
+    },
+    "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/node_modules/gatsby-plugin-offline/app-shell.js": {
+      "query": "",
+      "componentPath": "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/node_modules/gatsby-plugin-offline/app-shell.js"
     }
   },
   "staticQueryComponents": {
