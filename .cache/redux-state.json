@@ -2140,7 +2140,7 @@
       "resolve": "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "21a945f9ea30d2b1473ac481f56f2faf",
+      "version": "4fa54c215345e94a1e70218c81014973",
       "pluginOptions": {
         "plugins": []
       },
@@ -2367,7 +2367,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "4db242cdd618f4c869e98219041b4634",
+        "contentDigest": "cc7fb57b21a7e7f05d1b48f014b19e6a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -2490,12 +2490,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-21T22:19:22.377Z",
+      "buildTime": "2019-03-21T22:28:20.016Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "a678cbff57424c2c7aa9c3226aaf16af",
+        "contentDigest": "c85a973f809b904341ce9f1e17048f83",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2505,7 +2505,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "e7d40f95526442aba3fa79e938b632a0",
+        "contentDigest": "f0d682de231721fa0f7c225111ba0d9e",
         "type": "Directory",
         "description": "Directory \"src/assets/images\"",
         "owner": "gatsby-source-filesystem"
@@ -2517,7 +2517,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2019-03-21T21:06:08.725Z",
-      "accessTime": "2019-03-21T22:19:25.455Z",
+      "accessTime": "2019-03-21T22:28:25.800Z",
       "changeTime": "2019-03-21T21:06:08.725Z",
       "birthTime": "2019-02-12T17:38:46.079Z",
       "root": "/",
@@ -2535,11 +2535,11 @@
       "blksize": 4096,
       "ino": 18357107,
       "blocks": 0,
-      "atimeMs": 1553206765454.994,
+      "atimeMs": 1553207305800.4531,
       "mtimeMs": 1553202368724.7837,
       "ctimeMs": 1553202368724.7837,
       "birthtimeMs": 1549993126078.714,
-      "atime": "2019-03-21T22:19:25.455Z",
+      "atime": "2019-03-21T22:28:25.800Z",
       "mtime": "2019-03-21T21:06:08.725Z",
       "ctime": "2019-03-21T21:06:08.725Z",
       "birthtime": "2019-02-12T17:38:46.079Z"
@@ -2562,7 +2562,7 @@
       "size": 31944,
       "prettySize": "31.9 kB",
       "modifiedTime": "2019-03-21T20:16:01.330Z",
-      "accessTime": "2019-03-21T21:32:12.505Z",
+      "accessTime": "2019-03-21T22:19:32.886Z",
       "changeTime": "2019-03-21T20:16:02.441Z",
       "birthTime": "2019-03-21T20:16:01.328Z",
       "root": "/",
@@ -2580,11 +2580,11 @@
       "blksize": 4096,
       "ino": 18412679,
       "blocks": 64,
-      "atimeMs": 1553203932505.3591,
+      "atimeMs": 1553206772886.3994,
       "mtimeMs": 1553199361330.1404,
       "ctimeMs": 1553199362440.6255,
       "birthtimeMs": 1553199361327.9487,
-      "atime": "2019-03-21T21:32:12.505Z",
+      "atime": "2019-03-21T22:19:32.886Z",
       "mtime": "2019-03-21T20:16:01.330Z",
       "ctime": "2019-03-21T20:16:02.441Z",
       "birthtime": "2019-03-21T20:16:01.328Z"
@@ -2609,7 +2609,7 @@
       "size": 82834,
       "prettySize": "82.8 kB",
       "modifiedTime": "2019-03-21T21:05:59.930Z",
-      "accessTime": "2019-03-21T21:32:36.075Z",
+      "accessTime": "2019-03-21T22:19:26.832Z",
       "changeTime": "2019-03-21T21:06:08.815Z",
       "birthTime": "2019-03-21T21:05:59.827Z",
       "root": "/",
@@ -2627,11 +2627,11 @@
       "blksize": 4096,
       "ino": 18417901,
       "blocks": 168,
-      "atimeMs": 1553203956075.275,
+      "atimeMs": 1553206766831.6262,
       "mtimeMs": 1553202359930.0837,
       "ctimeMs": 1553202368815.4922,
       "birthtimeMs": 1553202359826.7312,
-      "atime": "2019-03-21T21:32:36.075Z",
+      "atime": "2019-03-21T22:19:26.832Z",
       "mtime": "2019-03-21T21:05:59.930Z",
       "ctime": "2019-03-21T21:06:08.815Z",
       "birthtime": "2019-03-21T21:05:59.827Z"
@@ -2651,7 +2651,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "d469572fee9dda8102d4019129ed76e0",
+        "contentDigest": "edbd94cea108f0c6afa2baf2033e8a62",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -2663,7 +2663,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-02-25T22:47:04.150Z",
-      "accessTime": "2019-03-21T22:19:25.465Z",
+      "accessTime": "2019-03-21T22:28:25.817Z",
       "changeTime": "2019-03-21T18:59:36.465Z",
       "birthTime": "2019-02-12T17:38:46.080Z",
       "root": "/",
@@ -2681,58 +2681,13 @@
       "blksize": 4096,
       "ino": 18357147,
       "blocks": 0,
-      "atimeMs": 1553206765465.4087,
+      "atimeMs": 1553207305817.2424,
       "mtimeMs": 1551134824149.9421,
       "ctimeMs": 1553194776465.3503,
       "birthtimeMs": 1549993126080.2664,
-      "atime": "2019-03-21T22:19:25.465Z",
+      "atime": "2019-03-21T22:28:25.817Z",
       "mtime": "2019-02-25T22:47:04.150Z",
       "ctime": "2019-03-21T18:59:36.465Z",
-      "birthtime": "2019-02-12T17:38:46.080Z"
-    },
-    "9d257f8f-ee95-53a2-a568-56a37002d141": {
-      "id": "9d257f8f-ee95-53a2-a568-56a37002d141",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "3c313f2efd8e8d3b525d5d34560a92a4",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/pages/index.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/src/pages/index.js",
-      "relativePath": "index.js",
-      "extension": "js",
-      "size": 1495,
-      "prettySize": "1.5 kB",
-      "modifiedTime": "2019-03-21T21:59:45.553Z",
-      "accessTime": "2019-03-21T21:59:45.552Z",
-      "changeTime": "2019-03-21T21:59:45.553Z",
-      "birthTime": "2019-02-12T17:38:46.080Z",
-      "root": "/",
-      "dir": "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/src/pages",
-      "base": "index.js",
-      "ext": ".js",
-      "name": "index",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 502,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 18357149,
-      "blocks": 8,
-      "atimeMs": 1553205585552.0796,
-      "mtimeMs": 1553205585552.6538,
-      "ctimeMs": 1553205585552.6538,
-      "birthtimeMs": 1549993126080.4573,
-      "atime": "2019-03-21T21:59:45.552Z",
-      "mtime": "2019-03-21T21:59:45.553Z",
-      "ctime": "2019-03-21T21:59:45.553Z",
       "birthtime": "2019-02-12T17:38:46.080Z"
     },
     "ac809c0a-6863-5ac0-ac2f-be02a74607a4": {
@@ -2753,7 +2708,7 @@
       "size": 323,
       "prettySize": "323 B",
       "modifiedTime": "2019-03-21T21:33:59.601Z",
-      "accessTime": "2019-03-21T21:58:17.514Z",
+      "accessTime": "2019-03-21T22:19:32.887Z",
       "changeTime": "2019-03-21T21:33:59.601Z",
       "birthTime": "2019-02-12T17:38:46.080Z",
       "root": "/",
@@ -2771,13 +2726,58 @@
       "blksize": 4096,
       "ino": 18357148,
       "blocks": 8,
-      "atimeMs": 1553205497513.7468,
+      "atimeMs": 1553206772886.5452,
       "mtimeMs": 1553204039601.4216,
       "ctimeMs": 1553204039601.4216,
       "birthtimeMs": 1549993126080.3257,
-      "atime": "2019-03-21T21:58:17.514Z",
+      "atime": "2019-03-21T22:19:32.887Z",
       "mtime": "2019-03-21T21:33:59.601Z",
       "ctime": "2019-03-21T21:33:59.601Z",
+      "birthtime": "2019-02-12T17:38:46.080Z"
+    },
+    "9d257f8f-ee95-53a2-a568-56a37002d141": {
+      "id": "9d257f8f-ee95-53a2-a568-56a37002d141",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3c313f2efd8e8d3b525d5d34560a92a4",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/src/pages/index.js",
+      "relativePath": "index.js",
+      "extension": "js",
+      "size": 1495,
+      "prettySize": "1.5 kB",
+      "modifiedTime": "2019-03-21T21:59:45.553Z",
+      "accessTime": "2019-03-21T22:19:32.887Z",
+      "changeTime": "2019-03-21T21:59:45.553Z",
+      "birthTime": "2019-02-12T17:38:46.080Z",
+      "root": "/",
+      "dir": "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 18357149,
+      "blocks": 8,
+      "atimeMs": 1553206772886.5486,
+      "mtimeMs": 1553205585552.6538,
+      "ctimeMs": 1553205585552.6538,
+      "birthtimeMs": 1549993126080.4573,
+      "atime": "2019-03-21T22:19:32.887Z",
+      "mtime": "2019-03-21T21:59:45.553Z",
+      "ctime": "2019-03-21T21:59:45.553Z",
       "birthtime": "2019-02-12T17:38:46.080Z"
     },
     "Prismic__Post__XJP6phIAAOhH5R3_": {
@@ -3160,18 +3160,18 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "fc23b0f5b284d15f82dbaead51c3efbd"
+    "PLUGINS_HASH": "70d9f24fe58764d6b0096ddf1b663880"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "/",
         "sq--src-components-footer-js",
         "sq--src-components-header-js",
         "sq--src-components-layout-js",
+        "sq--src-components-hero-js",
         "sq--src-components-menus-menu-header-js",
         "sq--src-components-seo-js",
-        "sq--src-components-hero-js"
+        "/"
       ],
       "Prismic__Homepage__XJP2hxIAAE9M5QuP": [
         "/"
@@ -3182,7 +3182,6 @@
     },
     "connections": {
       "PrismicPage": [
-        null,
         null
       ]
     }
@@ -3202,6 +3201,10 @@
     "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
+    "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/node_modules/gatsby-plugin-offline/app-shell.js": {
+      "query": "",
+      "componentPath": "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/node_modules/gatsby-plugin-offline/app-shell.js"
+    },
     "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/src/templates/page.js": {
       "query": "query PageBySlug(\n  $uid: String!\n) {\n  prismicPage(uid: {eq: $uid}) {\n    uid\n    data {\n      title {\n        text\n      }\n      content {\n        html\n      }\n    }\n  }\n}\n",
       "componentPath": "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/src/templates/page.js"
@@ -3213,10 +3216,6 @@
     "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/src/pages/index.js": {
       "query": "query IndexQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n  prismicHomepage {\n    slugs\n    uid\n    id\n    data {\n      title {\n        text\n      }\n      content {\n        html\n      }\n    }\n  }\n}\n",
       "componentPath": "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/src/pages/index.js"
-    },
-    "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/node_modules/gatsby-plugin-offline/app-shell.js": {
-      "query": "",
-      "componentPath": "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/node_modules/gatsby-plugin-offline/app-shell.js"
     }
   },
   "staticQueryComponents": {
@@ -3236,14 +3235,6 @@
       "query": "query HeaderQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
       "hash": 920827909
     },
-    "sq--src-components-hero-js": {
-      "name": "HeroQuery",
-      "componentPath": "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/src/components/Hero.js",
-      "id": "sq--src-components-hero-js",
-      "jsonName": "sq--src-components-hero-js",
-      "query": "query HeroQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
-      "hash": 1090701177
-    },
     "sq--src-components-layout-js": {
       "name": "LayoutQuery",
       "componentPath": "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/src/components/Layout.js",
@@ -3251,6 +3242,14 @@
       "jsonName": "sq--src-components-layout-js",
       "query": "query LayoutQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
       "hash": 3470870683
+    },
+    "sq--src-components-hero-js": {
+      "name": "HeroQuery",
+      "componentPath": "/Users/morgansegura/mo/_clients/liverpoolsc/deliverables/develop/app/src/components/Hero.js",
+      "id": "sq--src-components-hero-js",
+      "jsonName": "sq--src-components-hero-js",
+      "query": "query HeroQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 1090701177
     },
     "sq--src-components-menus-menu-header-js": {
       "name": "MenuHeaderQuery",
