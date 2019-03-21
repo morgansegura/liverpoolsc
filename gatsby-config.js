@@ -4,17 +4,18 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `The Brazilian Guys`,
-    siteUrl: `https://the-brazilian-guys.netlify.com`,
-    shortName: `TBG`,
-    keywords: `Bang for your burger buck, Brazilian Food, Stuffed Hash Browns, San Diego, Best Places to eat, La Jolla, #glutenfree`,
-    description: `The Brazilian Guys ...`,
+    title: `Liverpool Soccer Club`,
+    siteUrl: `https://liverpoolsc.netlify.com`,
+    shortName: `LiverpoolSC`,
+    slogan: `You'l never walk alone`,
+    keywords: `soccer, club, youth, liverpool, competitive, lakeside, el cajon, san diego, east county, presidio`,
+    description: `Liverpool Soccer Club ... `,
     copyright: `&copy; The Brazilian Guys, Established 2015. San Diego, CA.`,
     icon: `src/assets/images/logo.svg`,
-    rssFeed: `https://thebrazilianguys.com/feed`,
-    twitterID: `@thebrazilianguys`,
-    fbAppID: `thebrazilianguys`,
-    instagramID: `thebrazilianguys`,
+    rssFeed: ``,
+    twitterID: `@liverpoolsc`,
+    fbAppID: `liverpoolsc`,
+    instagramID: `liverpoolsc`,
     googleAnalyticsId: `UA-131102503-1`
   },
 
@@ -64,12 +65,12 @@ module.exports = {
         ]
       }
     },
-    {
-      resolve: `gatsby-source-instagram`,
-      options: {
-        username: `thebrazilianguys`
-      }
-    },
+    // {
+    //   resolve: `gatsby-source-instagram`,
+    //   options: {
+    //     username: `thebrazilianguys`
+    //   }
+    // },
     // Performance
     "gatsby-plugin-sitemap",
     {

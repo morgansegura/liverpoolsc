@@ -1,40 +1,27 @@
 // import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 // import PreviewCompatibleImage from '../PreviewCompatibleImage'
-import { StaticQuery, graphql } from 'gatsby'
-import CustomLink from '../CustomLink'
-import React from 'react'
-import { toggleMobileNav } from '../../helpers/helpers'
+import { StaticQuery, graphql } from "gatsby";
+// import CustomLink from "../CustomLink";
+import React from "react";
+// import { toggleMobileNav } from "../../helpers/helpers";
 
 const MenuHeader = ({ siteTitle }) => (
   <StaticQuery
     query={graphql`
       query MenuHeaderQuery {
-        allPrismicWidgetNavigation {
-          edges {
-            node {
-              data {
-                navgroup {
-                  selectlinktype
-                  link
-                  label
-                  icon
-                }
-              }
-            }
-          }
-        }
-        prismicSiteMetadata {
-          data {
+        site {
+          siteMetadata {
             title
           }
         }
       }
     `}
     render={data => {
-      const menuMain = data.allPrismicWidgetNavigation.edges
+      // const menuMain = data.allPrismicNavigation.edges;
       return (
         <nav id="navHeader" className="nav__header col-12 col-md-10">
+          {/* 
           <div className="nav__header__inner row">
             {!!menuMain ? (
               <React.Fragment>
@@ -59,30 +46,24 @@ const MenuHeader = ({ siteTitle }) => (
               </React.Fragment>
             ) : null}
           </div>
-          {/*
-            {!!group.icon && group.icon !== 'undefined'
-              ? `<span className="iconify" data-icon=${
-                  group.icon
-                }></span>`
-              : null}{' '}
-          
-          */}
+
           <div className="nav__header__trigger" onClick={toggleMobileNav}>
             <div className="nav__header__trigger-circle" />
             <div className="nav__header__trigger--inner" />
           </div>
+        */}
         </nav>
-      )
+      );
     }}
   />
-)
+);
 
 MenuHeader.propTypes = {
-  siteTitle: PropTypes.string,
-}
+  siteTitle: PropTypes.string
+};
 
 MenuHeader.defaultProps = {
-  siteTitle: ``,
-}
+  siteTitle: ``
+};
 
-export default MenuHeader
+export default MenuHeader;

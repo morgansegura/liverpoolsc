@@ -1,8 +1,8 @@
 import React from "react";
 import { graphql } from "gatsby";
 
-const Post = ({ data: { prismicPost } }) => {
-  const { data } = prismicPost;
+const Page = ({ data: { prismicPage } }) => {
+  const { data } = prismicPage;
   return (
     <React.Fragment>
       <h1>{data.title.text}</h1>
@@ -11,11 +11,11 @@ const Post = ({ data: { prismicPost } }) => {
   );
 };
 
-export default Post;
+export default Page;
 
 export const pageQuery = graphql`
-  query PostBySlug($uid: String!) {
-    prismicPost(uid: { eq: $uid }) {
+  query PageBySlug($uid: String!) {
+    prismicPage(uid: { eq: $uid }) {
       uid
       data {
         title {

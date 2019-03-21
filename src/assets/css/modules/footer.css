@@ -1,7 +1,5 @@
 .footer {
-  background: $main-black url('images/bg-pattern-dark.png') 0 0 repeat;
   padding-top: 60px;
-  /* padding-bottom: 30px; */
   color: #919191;
 
   @mixin atMedium {
@@ -36,7 +34,7 @@
     display: flex;
     transition: opacity 0.3s ease-out;
     background-color: google-color(amber, 300);
-    mask: url('images/logo-text.svg') no-repeat center;
+    mask: url("images/logo.svg") no-repeat center;
     height: 75px;
     max-width: 80%;
     margin: 0 auto 40px auto;

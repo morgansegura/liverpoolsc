@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 export default class Contact extends Component {
   render() {
@@ -8,8 +8,8 @@ export default class Contact extends Component {
           <form
             name="contact"
             method="POST"
+            data-netlify="true"
             className="contact__form"
-            netlify="true"
           >
             <div className="contact__form__head">
               <h3 className="contact__form__headline">
@@ -68,6 +68,6 @@ export default class Contact extends Component {
           </form>
         </div>
       </section>
-    )
+    );
   }
 }

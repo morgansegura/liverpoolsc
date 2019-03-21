@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { animateText } from "../helpers/helpers";
 import { StaticQuery, graphql } from "gatsby";
 
 export default class Hero extends Component {
@@ -8,12 +7,7 @@ export default class Hero extends Component {
 
     this.state = {};
   }
-  componentDidMount() {
-    animateText(
-      document.getElementsByClassName("word"),
-      document.createElement("span")
-    );
-  }
+  componentDidMount() {}
   componentDidUpdate() {}
 
   render() {

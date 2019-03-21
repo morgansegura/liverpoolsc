@@ -3,10 +3,10 @@ import Helmet from "react-helmet";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 
-import Header from "./header";
-import Footer from "./footer";
+import Header from "./Header";
+import Footer from "./Footer";
 import MenuHeader from "./Menus/menuHeader";
-import SEO from "./seo";
+import SEO from "./SEO";
 
 import "../assets/styles.css";
 
@@ -22,11 +22,9 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => {
-      const { data: metadata } = data.prismicSiteMetadata;
-      // console.log(data.prismicSiteMetadata.data)
       return (
         <>
-          <SEO title={metadata.title} />
+          <SEO title="Hello" />
           <Helmet>
             <script src="//code.iconify.design/1/1.0.0-rc7/iconify.min.js" />
           </Helmet>

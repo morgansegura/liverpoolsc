@@ -1,30 +1,28 @@
-import React, { Component } from 'react'
-import { graphql } from 'gatsby'
-// import Helmet from "react-helmet"
-import Layout from '../components/layout'
-// import SEO from "../components/SEO"
-import SplashPageTemplate from '../templates/splash-page'
-import HomePageTemplate from '../templates/home-page'
-import logo from '../assets/images/logo.svg'
+import React, { Component } from "react";
+import { graphql } from "gatsby";
+import Layout from "../components/Layout";
+import SplashPageTemplate from "../templates/splash-page";
+import HomePageTemplate from "../templates/home-page";
+
 // import SEO from '../components/seo'
-import { overlayClose, smoothScroll } from '../helpers/helpers'
+import { overlayClose, smoothScroll } from "../helpers/helpers";
 
 export default class IndexPage extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       showSplashPage: false,
-      bodyClassList: ' is--mobile-nav mobile-nav--is-closed',
-    }
+      bodyClassList: " is--mobile-nav mobile-nav--is-closed"
+    };
   }
   componentDidMount() {
     // Implement smmoth scrooling
-    smoothScroll()
+    smoothScroll();
     // function to close overlay on container click or esc key
-    overlayClose(document.querySelector('.overlay'))
+    overlayClose(document.querySelector(".overlay"));
     // add classes to the body tag
-    const body = document.getElementsByTagName('body')[0]
-    body.className += this.state.bodyClassList
+    const body = document.getElementsByTagName("body")[0];
+    body.className += this.state.bodyClassList;
   }
   componentWillUnmount() {}
 
@@ -35,17 +33,25 @@ export default class IndexPage extends Component {
           <SplashPageTemplate />
         ) : (
           <Layout>
-            <HomePageTemplate logo={logo} data={this.props.data} />
+            <HomePageTemplate data={this.props.data} />
           </Layout>
         )}
       </React.Fragment>
-    )
+    );
   }
 }
 
 export const pageQuery = graphql`
   query IndexQuery {
+    site {
+      siteMetadata {
+        title
+      }
+    }
     prismicHomepage {
+      slugs
+      uid
+      id
       data {
         title {
           text
@@ -55,16 +61,5 @@ export const pageQuery = graphql`
         }
       }
     }
-    allPrismicHomepage {
-      edges {
-        node {
-          data {
-            body {
-              __typename
-            }
-          }
-        }
-      }
-    }
   }
-`
+`;
