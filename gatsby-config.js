@@ -131,8 +131,8 @@ module.exports = {
     {
       resolve: `gatsby-source-prismic`,
       options: {
-        repositoryName: `liverpoolsc`,
-        accessToken: `MC5YSlB4WGhJQUFLOU41UFRP.Ou-_ve-_vSxSP1Lvv73vv71cZO-_vRpb77-977-9HxTvv73vv73vv73vv70QZBQV77-977-977-977-9SGI`,
+        repositoryName: `${process.env.PRISMIC_REPO}`,
+        accessToken: `${process.env.PRISMIC_API_KEY}`,
         linkResolver: ({ node, key, value }) => post => `/${post.uid}`,
       },
     },
