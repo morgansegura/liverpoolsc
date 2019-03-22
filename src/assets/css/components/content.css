@@ -1,16 +1,19 @@
-	/* Content
-	--------------------------------------------- */
+.content__wrapper {
+  background-color: #eee;
+  border-radius: 12px;
+  border: 1px solid black;
+  clear: both;
+  margin-top: 1rem;
+  padding: 24px;
+}
 
-	.content {
-		width: 65%;
-	}
+.content {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 8px;
+  margin: 0 0 24px;
 
-	.sidebar-content .content {
-	}
-
-	.full-width-content .content,
-	.landing-page .content {
-		float: none;
-		margin-left: auto;
-		margin-right: auto;
-	}
+  &__width-sidebar & {
+    flex: 1 1;
+  }
+}

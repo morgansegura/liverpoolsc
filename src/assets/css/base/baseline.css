@@ -10,6 +10,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: $base-bg-color;
+  background-image: url('images/bg3s.png');
   font-family: $base-font-family;
   color: $base-font-color;
   font-weight: $base-font-weight;

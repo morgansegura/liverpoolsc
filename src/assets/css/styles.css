@@ -1,35 +1,36 @@
 /* Vendors */
-@import "vendors/normalize.css";
-@import "vendors/bootstrap-grid.min.css";
+@import 'vendors/normalize.css';
+@import 'vendors/bootstrap-grid.min.css';
 
 /* Base */
-@import "base/reset";
-@import "base/variables";
-@import "base/utilities";
-@import "base/baseline";
-@import "base/image";
-@import "base/typeset";
+@import 'base/reset';
+@import 'base/variables';
+@import 'base/utilities';
+@import 'base/baseline';
+@import 'base/image';
+@import 'base/typeset';
 
 /* Modules */
-@import "modules/header";
-@import "modules/footer";
-@import "modules/navigation";
-@import "modules/product";
-@import "modules/hero";
-@import "modules/about";
-@import "modules/contact";
-@import "modules/menu-description";
+@import 'modules/header';
+@import 'modules/footer';
+@import 'modules/navigation';
+@import 'modules/product';
+@import 'modules/hero';
+@import 'modules/about';
+@import 'modules/contact';
+@import 'modules/menu-description';
 
 /* Components */
-@import "components/container";
-@import "components/content";
-@import "components/buttons";
-@import "components/forms";
-@import "components/overlay";
-@import "components/search";
-@import "components/widget";
-@import "components/tabs";
-@import "components/headline";
+@import 'components/container';
+@import 'components/aside';
+@import 'components/content';
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/overlay';
+@import 'components/search';
+@import 'components/widget';
+@import 'components/tabs';
+@import 'components/headline';
 
 /* Theme */
-@import "theme/colors";
+@import 'theme/colors';

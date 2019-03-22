@@ -1,8 +1,8 @@
 /* Fonts */
-$sans-primary: "Roboto", sans-serif;
-$sans-secondary: "Lato", sans-serif;
-$serif: "Times", serif;
-$segura: "Norican", cursive;
+$sans-primary: 'Roboto', sans-serif;
+$sans-secondary: 'Lato', sans-serif;
+$serif: 'Times', serif;
+$segura: 'Norican', cursive;
 
 /* Shades */
 $main-black: #181a1e;
