@@ -42,6 +42,14 @@ module.exports = {
         // trackingId: prismicSiteMetadata.googleAnalyticsId,
       },
     },
+    // {
+    //   resolve: 'gatsby-source-graphql',
+    //   options: {
+    //     typeName: 'RMAPI',
+    //     fieldName: 'rickAndMorty',
+    //     url: 'https://rickandmortyapi-gql.now.sh/',
+    //   },
+    // },
     // Media
     `gatsby-transformer-sharp`,
     {
