@@ -1,10 +1,6 @@
-// import { Link } from 'gatsby'
-import PropTypes from "prop-types";
-// import PreviewCompatibleImage from '../PreviewCompatibleImage'
-import { StaticQuery, graphql } from "gatsby";
-// import CustomLink from "../CustomLink";
-import React from "react";
-// import { toggleMobileNav } from "../../helpers/helpers";
+import PropTypes from 'prop-types'
+import { StaticQuery, graphql } from 'gatsby'
+import React from 'react'
 
 const MenuHeader = ({ siteTitle }) => (
   <StaticQuery
@@ -53,17 +49,17 @@ const MenuHeader = ({ siteTitle }) => (
           </div>
         */}
         </nav>
-      );
+      )
     }}
   />
-);
+)
 
 MenuHeader.propTypes = {
-  siteTitle: PropTypes.string
-};
+  siteTitle: PropTypes.string,
+}
 
 MenuHeader.defaultProps = {
-  siteTitle: ``
-};
+  siteTitle: ``,
+}
 
-export default MenuHeader;
+export default MenuHeader

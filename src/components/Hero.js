@@ -1,11 +1,11 @@
-import React, { Component } from "react";
-import { StaticQuery, graphql } from "gatsby";
+import React, { Component } from 'react'
+import { StaticQuery, graphql } from 'gatsby'
 
 export default class Hero extends Component {
   constructor(props) {
-    super(props);
+    super(props)
 
-    this.state = {};
+    this.state = {}
   }
   componentDidMount() {}
   componentDidUpdate() {}
@@ -27,9 +27,9 @@ export default class Hero extends Component {
             <section id="home" className="hero parallax__hero bg__hero-text">
               Hero
             </section>
-          );
+          )
         }}
       />
-    );
+    )
   }
 }

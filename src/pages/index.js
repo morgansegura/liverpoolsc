@@ -1,10 +1,8 @@
 import React, { Component } from 'react'
 import { graphql } from 'gatsby'
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import SplashPageTemplate from '../templates/splash-page'
 import HomePageTemplate from '../templates/home-page'
-
-// import SEO from '../components/seo'
 import { overlayClose, smoothScroll } from '../helpers/helpers'
 
 export default class IndexPage extends Component {

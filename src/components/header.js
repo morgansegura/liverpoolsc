@@ -1,8 +1,6 @@
-import React from "react";
-import { StaticQuery, graphql, Link } from "gatsby";
-import PropTypes from "prop-types";
-// import PreviewCompatibleImage from './PreviewCompatibleImage'
-// import { scrollHeader } from '../helpers/helpers'
+import React from 'react'
+import { StaticQuery, graphql, Link } from 'gatsby'
+import PropTypes from 'prop-types'
 
 const Header = ({ siteTitle }) => (
   <StaticQuery
@@ -30,17 +28,17 @@ const Header = ({ siteTitle }) => (
             </div>
           </header>
         </>
-      );
+      )
     }}
   />
-);
+)
 
 Header.propTypes = {
-  siteTitle: PropTypes.string
-};
+  siteTitle: PropTypes.string,
+}
 
 Header.defaultProps = {
-  siteTitle: ``
-};
+  siteTitle: ``,
+}
 
-export default Header;
+export default Header

@@ -1,8 +1,6 @@
-import PropTypes from "prop-types";
-// import Img from 'gatsby-image'
-import { StaticQuery, graphql } from "gatsby";
-// import CustomLink from "./CustomLink";
-import React from "react";
+import PropTypes from 'prop-types'
+import { StaticQuery, graphql } from 'gatsby'
+import React from 'react'
 
 const Footer = ({ siteTitle }) => (
   <StaticQuery
@@ -20,17 +18,17 @@ const Footer = ({ siteTitle }) => (
         <footer id="footerMain" className="footer">
           Footer
         </footer>
-      );
+      )
     }}
   />
-);
+)
 
 Footer.propTypes = {
-  siteTitle: PropTypes.string
-};
+  siteTitle: PropTypes.string,
+}
 
 Footer.defaultProps = {
-  siteTitle: ``
-};
+  siteTitle: ``,
+}
 
-export default Footer;
+export default Footer
