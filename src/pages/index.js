@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
 import SplashPageTemplate from '../templates/splash-page'
 import HomePageTemplate from '../templates/home-page'
 import { overlayClose, smoothScroll } from '../helpers/helpers'
