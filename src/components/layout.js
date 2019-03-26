@@ -3,10 +3,10 @@ import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
-import Header from './Header'
-import Footer from './Footer'
+import Header from './header'
+import Footer from './footer'
 import MenuHeader from './Menus/menuHeader'
-import SEO from './SEO'
+import SEO from './seo'
 
 import '../assets/styles.css'
 
